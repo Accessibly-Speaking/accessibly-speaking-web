@@ -1,4 +1,3 @@
-
 import { FileText, Book, Video, Link as LinkIcon } from "lucide-react";
 
 const resourceCategories = [
@@ -84,24 +83,19 @@ const Resources = () => {
         </div>
         
         <div className="mt-12 p-8 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
-          <h3 className="text-2xl font-bold mb-4 text-center">Want more resources?</h3>
+          <h3 className="text-2xl font-bold mb-4 text-center">Submit a Resource</h3>
           <p className="text-lg text-center mb-6">
-            Join our mailing list to receive regular updates on the latest accessibility resources and best practices.
+            Help us expand our web accessibility resources by contributing to our GitHub repository.
           </p>
-          <div className="max-w-md mx-auto">
-            <div className="flex flex-col sm:flex-row gap-4">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="flex-grow px-4 py-3 border-2 border-black rounded-lg focus:outline-none"
-                aria-label="Email address for newsletter"
-              />
-              <button 
-                className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
-              >
-                Subscribe
-              </button>
-            </div>
+          <div className="text-center">
+            <a 
+              href="https://github.com/Annysah/web-accessibility-resources" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors inline-block"
+            >
+              Contribute Resources
+            </a>
           </div>
         </div>
       </div>

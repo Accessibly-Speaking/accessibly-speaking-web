@@ -1,5 +1,5 @@
 
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -76,47 +76,11 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <MapPin className="h-6 w-6 mr-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-medium mb-1">Our Location</h4>
-                    <p>123 Accessibility Avenue</p>
-                    <p>San Francisco, CA 94103</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
                   <Mail className="h-6 w-6 mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-medium mb-1">Email Us</h4>
-                    <p><a href="mailto:info@accessiblyspeaking.org" className="hover:underline">info@accessiblyspeaking.org</a></p>
+                    <p><a href="mailto:accessiblyspeaking@gmail.com" className="hover:underline">accessiblyspeaking@gmail.com</a></p>
                   </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <Phone className="h-6 w-6 mr-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-medium mb-1">Call Us</h4>
-                    <p><a href="tel:+15551234567" className="hover:underline">(555) 123-4567</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="p-8 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] flex-1">
-              <h3 className="text-2xl font-bold mb-6">Office Hours</h3>
-              
-              <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="font-medium">Monday - Friday</span>
-                  <span>9:00 AM - 5:00 PM PST</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Saturday</span>
-                  <span>Closed</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Sunday</span>
-                  <span>Closed</span>
                 </div>
               </div>
             </div>

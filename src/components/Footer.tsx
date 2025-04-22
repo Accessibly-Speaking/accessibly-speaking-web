@@ -1,4 +1,3 @@
-
 import { Mail, Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -38,6 +37,7 @@ const Footer = () => {
               <li><a href="#mission" className="text-gray-300 hover:text-white transition-colors">Mission</a></li>
               <li><a href="#resources" className="text-gray-300 hover:text-white transition-colors">Resources</a></li>
               <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+              <li><a href="https://dev.to/accessibly_speaking" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Blog</a></li>
             </ul>
           </div>
           
