@@ -1,4 +1,6 @@
 import { Mail, Github, Linkedin, X, ArrowUpRight } from "lucide-react";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
 
 const Footer = () => {
   return (
@@ -56,17 +58,17 @@ const Footer = () => {
               Stay updated with our latest accessibility insights and resources.
             </p>
             <div className="flex">
-              <input 
+              <Input 
                 type="email" 
                 placeholder="Enter your email" 
-                className="w-full px-4 py-2 text-black rounded-l-lg focus:outline-none"
+                className="rounded-r-none border-white/20 bg-white/10 text-white placeholder:text-gray-400 focus:border-white/30 hover:border-white/30"
               />
-              <button 
-                className="px-4 py-2 bg-white text-black font-medium rounded-r-lg hover:bg-gray-200 transition-colors inline-flex items-center gap-2"
+              <Button 
+                className="rounded-l-none bg-white text-black hover:bg-gray-200 transition-colors gap-2"
               >
                 Subscribe
                 <ArrowUpRight className="h-5 w-5" />
-              </button>
+              </Button>
             </div>
           </div>
         </div>
