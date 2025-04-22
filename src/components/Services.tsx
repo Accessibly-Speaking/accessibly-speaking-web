@@ -1,4 +1,4 @@
-import { Shield, FileText, Users, Zap, DocumentText } from "lucide-react";
+import { Shield, FileText, Users, Zap } from "lucide-react";
 
 const services = [
   {
@@ -10,7 +10,7 @@ const services = [
   {
     title: "Document Remediation",
     description: "Converting documents into accessible formats, ensuring PDFs and other materials meet accessibility standards.",
-    icon: DocumentText,
+    icon: FileText,
     color: "bg-gray-100"
   },
   {
