@@ -1,4 +1,4 @@
-import { Shield, FileText, Users, Zap } from "lucide-react";
+import { Shield, FileText, Users, Zap, Mail } from "lucide-react";
 
 const services = [
   {
@@ -16,7 +16,7 @@ const services = [
   {
     title: "Expert Consultations",
     description: "Tailored guidance on implementing accessibility best practices for your organization's specific needs.",
-    icon: FileText,
+    icon: Mail,
     color: "bg-gray-100"
   },
   {

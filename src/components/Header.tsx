@@ -31,7 +31,7 @@ const Header = () => {
             <a href="#about" className="text-black hover:text-gray-700 transition-colors font-medium">About</a>
             <a href="#mission" className="text-black hover:text-gray-700 transition-colors font-medium">Mission</a>
             <a href="#resources" className="text-black hover:text-gray-700 transition-colors font-medium">Resources</a>
-            <a href="#contact" className="text-black hover:text-gray-700 transition-colors font-medium">Contact</a>
+            <a href="mailto:contact@accessiblyspeaking.com" className="text-black hover:text-gray-700 transition-colors font-medium">Contact</a>
           </nav>
 
           <Button 
@@ -55,7 +55,7 @@ const Header = () => {
             <a href="#about" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>About</a>
             <a href="#mission" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Mission</a>
             <a href="#resources" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Resources</a>
-            <a href="#contact" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Contact</a>
+            <a href="mailto:contact@accessiblyspeaking.com" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Contact</a>
           </nav>
         </div>
       )}
