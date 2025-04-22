@@ -1,32 +1,36 @@
-
-name: Deploy to Production
+name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '18'
-        
-    - name: Install Dependencies
-      run: npm install
-      
-    - name: Build
-      run: npm run build
-      
-    - name: Deploy to Production
-      run: |
-        # Add your deployment commands here
-        # For example, if using a hosting service like Netlify or Vercel
-        # you would add their CLI commands here
-        echo "Add your deployment commands"
+      - uses: actions/checkout@v3
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - run: npm install
+
+      - run: npm run build
+
+      - name: Copy index.html to 404.html
+        run: cp dist/index.html dist/404.html
+
+      - name: Debug build output
+        run: |
+          echo "Listing contents of the root directory..."
+          ls -la
+          echo "Listing contents of the dist directory..."
+          ls -R dist
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          publish_dir: ./dist
+          cname: mysimpledomain.com
+          force_orphan: true
