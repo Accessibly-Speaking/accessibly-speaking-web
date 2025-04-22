@@ -51,19 +51,23 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-6 border-b border-gray-600 pb-2">Submit a Resource</h3>
+            <h3 className="text-lg font-bold mb-6 border-b border-gray-600 pb-2">Subscribe to Newsletter</h3>
             <p className="text-gray-300 mb-4">
-              Help us grow our accessibility resources collection.
+              Stay updated with our latest accessibility insights and resources.
             </p>
-            <a 
-              href="https://github.com/Annysah/web-accessibility-resources" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="px-4 py-2 bg-white text-black font-medium rounded-lg hover:bg-gray-200 transition-colors inline-flex items-center gap-2"
-            >
-              Submit Resource
-              <ArrowUpRight className="h-5 w-5" />
-            </a>
+            <div className="flex">
+              <input 
+                type="email" 
+                placeholder="Enter your email" 
+                className="w-full px-4 py-2 text-black rounded-l-lg focus:outline-none"
+              />
+              <button 
+                className="px-4 py-2 bg-white text-black font-medium rounded-r-lg hover:bg-gray-200 transition-colors inline-flex items-center gap-2"
+              >
+                Subscribe
+                <ArrowUpRight className="h-5 w-5" />
+              </button>
+            </div>
           </div>
         </div>
         
