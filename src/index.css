@@ -7,7 +7,7 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;
-    --primary: 197 82% 49%;
+    --primary: 0 0% 0%;
     --primary-foreground: 0 0% 100%;
   }
 
@@ -16,12 +16,12 @@
   }
 
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-white text-black antialiased;
   }
 
   /* Improve accessibility */
   *:focus {
-    @apply outline-2 outline-offset-2 outline-primary;
+    @apply outline-2 outline-offset-2 outline-black;
   }
 
   .sr-only {
@@ -29,6 +29,6 @@
   }
 
   .skip-to-content {
-    @apply absolute left-4 top-4 z-50 -translate-y-full bg-white text-black px-4 py-2 transition-transform focus:translate-y-0;
+    @apply absolute left-4 top-4 z-50 -translate-y-full bg-black text-white px-4 py-2 transition-transform focus:translate-y-0;
   }
 }

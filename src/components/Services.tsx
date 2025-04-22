@@ -27,17 +27,17 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 px-4 bg-gray-50" aria-labelledby="services-title">
+    <section id="services" className="py-20 px-4 bg-white text-black">
       <div className="container mx-auto">
-        <h2 id="services-title" className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-3xl font-bold text-center mb-12">
           Our Services
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service) => (
-            <Card key={service.title} className="border-2">
+            <Card key={service.title} className="border-2 border-black bg-white">
               <CardHeader>
-                <service.icon className="h-8 w-8 mb-2 text-primary" aria-hidden="true" />
-                <CardTitle>{service.title}</CardTitle>
+                <service.icon className="h-8 w-8 mb-2 text-black" aria-hidden="true" />
+                <CardTitle className="text-black">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>{service.description}</p>
