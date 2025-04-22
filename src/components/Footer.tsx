@@ -1,4 +1,4 @@
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin, X } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -14,8 +14,8 @@ const Footer = () => {
               Empowering businesses to create inclusive digital environments through expertise, education, and innovation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" aria-label="Twitter" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href="#" aria-label="X" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
+                <X className="h-5 w-5" />
               </a>
               <a href="#" aria-label="LinkedIn" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
                 <Linkedin className="h-5 w-5" />
