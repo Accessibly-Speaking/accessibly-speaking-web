@@ -1,4 +1,4 @@
-import { Mail, Github, Linkedin, X } from "lucide-react";
+import { Mail, Github, Linkedin, X, ArrowUpRight } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -34,7 +34,6 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="#services" className="text-gray-300 hover:text-white transition-colors">Services</a></li>
               <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#mission" className="text-gray-300 hover:text-white transition-colors">Mission</a></li>
               <li><a href="#resources" className="text-gray-300 hover:text-white transition-colors">Resources</a></li>
               <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
               <li><a href="https://dev.to/accessibly_speaking" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Blog</a></li>
@@ -52,21 +51,19 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-6 border-b border-gray-600 pb-2">Newsletter</h3>
+            <h3 className="text-lg font-bold mb-6 border-b border-gray-600 pb-2">Submit a Resource</h3>
             <p className="text-gray-300 mb-4">
-              Stay updated with the latest in accessibility news and resources.
+              Help us grow our accessibility resources collection.
             </p>
-            <div className="flex flex-col gap-3">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none"
-                aria-label="Email for newsletter"
-              />
-              <button className="px-4 py-2 bg-white text-black font-medium rounded-lg hover:bg-gray-200 transition-colors">
-                Subscribe
-              </button>
-            </div>
+            <a 
+              href="https://github.com/Annysah/web-accessibility-resources" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-white text-black font-medium rounded-lg hover:bg-gray-200 transition-colors inline-flex items-center gap-2"
+            >
+              Submit Resource
+              <ArrowUpRight className="h-5 w-5" />
+            </a>
           </div>
         </div>
         
