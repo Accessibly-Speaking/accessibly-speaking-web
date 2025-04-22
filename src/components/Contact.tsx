@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="max-w-xl mx-auto">
+        <div className="max-w-2xl mx-auto"> {/* Changed from max-w-xl to max-w-2xl */}
           <div className="p-8 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
             <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>
             <form className="space-y-4">
