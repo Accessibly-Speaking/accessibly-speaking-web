@@ -19,8 +19,12 @@ const Header = () => {
             <a href="#contact" className="text-black hover:text-gray-700 transition-colors">Contact</a>
           </nav>
 
-          <Button className="md:hidden" variant="outline" size="icon" aria-label="Menu" 
-            className="border-black text-black hover:bg-gray-100">
+          <Button 
+            variant="outline" 
+            size="icon" 
+            aria-label="Menu" 
+            className="md:hidden border-black text-black hover:bg-gray-100"
+          >
             <Menu className="h-6 w-6" />
           </Button>
         </div>
