@@ -1,10 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="pt-28 pb-16 px-4 bg-white text-black" aria-labelledby="hero-heading">
+    <section className="pt-32 pb-16 px-4 bg-white text-black" aria-labelledby="hero-heading">
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">

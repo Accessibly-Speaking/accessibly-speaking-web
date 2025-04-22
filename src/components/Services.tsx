@@ -1,11 +1,16 @@
-
-import { Shield, FileText, Users, Zap } from "lucide-react";
+import { Shield, FileText, Users, Zap, DocumentText } from "lucide-react";
 
 const services = [
   {
     title: "Accessibility Audits",
     description: "Comprehensive assessment of digital platforms for compliance with WCAG, ADA, and Section 508 standards.",
     icon: Shield,
+    color: "bg-gray-100"
+  },
+  {
+    title: "Document Remediation",
+    description: "Converting documents into accessible formats, ensuring PDFs and other materials meet accessibility standards.",
+    icon: DocumentText,
     color: "bg-gray-100"
   },
   {
@@ -39,7 +44,7 @@ const Services = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div 
               key={service.title} 
