@@ -37,16 +37,8 @@ const Partnerships = () => (
               <p>Partner with us to enhance your organization's digital accessibility practices, train your team, and demonstrate your commitment to inclusion.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-medium mb-3">Educational Institutions</h3>
-              <p>Work with us to develop accessibility curriculum, provide student training, and ensure educational materials are fully accessible.</p>
-            </div>
-            <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-medium mb-3">Non-Profit Organizations</h3>
               <p>Join forces to amplify advocacy efforts, share resources, and create greater impact in the accessibility community.</p>
-            </div>
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-medium mb-3">Government Agencies</h3>
-              <p>Collaborate on policy development, public awareness campaigns, and implementing accessibility standards.</p>
             </div>
           </div>
           

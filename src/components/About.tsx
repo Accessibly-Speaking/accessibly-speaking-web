@@ -21,11 +21,11 @@ const About = () => {
             <div className="space-y-4">
               <div className="flex items-start">
                 <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
-                <p>Over 100 businesses empowered with accessibility solutions</p>
+                <p>Empowered businesses with accessibility solutions</p>
               </div>
               <div className="flex items-start">
                 <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
-                <p>Expert team with combined 20+ years in accessibility</p>
+                <p>Expert team with years of experience in accessibility</p>
               </div>
               <div className="flex items-start">
                 <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
