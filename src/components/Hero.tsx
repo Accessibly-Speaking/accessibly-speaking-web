@@ -12,7 +12,7 @@ const Hero = () => {
               id="hero-heading"
               className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight"
             >
-              Championing Digital <span className="relative">Accessibility</span> Through Knowledge and Action
+              Learn. Advocate. <span className="relative">Include</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-700">
               We empower businesses to create inclusive digital environments through expertise, education, and innovation.
