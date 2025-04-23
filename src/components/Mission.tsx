@@ -1,4 +1,3 @@
-
 import { Target } from "lucide-react";
 
 const Mission = () => {
@@ -34,7 +33,7 @@ const Mission = () => {
             <ul className="space-y-3 text-lg">
               <li className="flex items-start">
                 <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">1</span>
-                <span>Educate U.S. businesses and professionals on the importance of digital accessibility.</span>
+                <span>Educate small businesses and professionals on the importance of digital accessibility.</span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">2</span>
