@@ -1,3 +1,4 @@
+
 import { Shield, FileText, Users, Zap, Mail } from "lucide-react";
 
 const services = [
@@ -38,7 +39,7 @@ const Services = () => {
     <section id="services" className="py-20 px-4 bg-white text-black">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-4xl font-bold mb-4">What We Do</h2>
           <p className="text-xl max-w-3xl mx-auto">
             We provide comprehensive solutions to ensure your digital platforms are accessible to everyone.
           </p>
