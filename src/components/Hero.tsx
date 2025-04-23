@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -9,9 +10,12 @@ const Hero = () => {
           <div className="space-y-6">
             <h1 
               id="hero-heading"
-              className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight"
+              className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight"
             >
-              Making Digital <span className="relative">Accessibility</span> the Standard
+              Making Digital <span className="relative inline-block">
+                <span className="absolute -top-1 -left-1 w-full h-full bg-black/10 -z-10 transform -skew-x-3 skew-y-1 rounded"></span>
+                <span className="relative z-10">Accessibility</span>
+              </span> the Standard
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-700">
               We empower businesses to create inclusive digital environments through expertise, education, and innovation.
