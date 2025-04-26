@@ -16,10 +16,18 @@ const Footer = () => {
               Empowering businesses to create inclusive digital environments through expertise, education, and innovation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" aria-label="X" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
+              <a 
+                href="https://x.com/AccessiblyS" 
+                aria-label="X" 
+                className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors"
+              >
                 <X className="h-5 w-5" />
               </a>
-              <a href="#" aria-label="LinkedIn" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
+              <a 
+                href="https://www.linkedin.com/company/accessibly-speaking/" 
+                aria-label="LinkedIn" 
+                className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="#" aria-label="GitHub" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
