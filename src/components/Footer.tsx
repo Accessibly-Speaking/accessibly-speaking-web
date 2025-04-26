@@ -30,9 +30,6 @@ const Footer = () => {
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" aria-label="GitHub" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
-                <Github className="h-5 w-5" />
-              </a>
               <a href="mailto:info@accessiblyspeaking.org" aria-label="Email" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
